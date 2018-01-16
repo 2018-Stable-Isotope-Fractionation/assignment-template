@@ -29,8 +29,13 @@ plot(pressure)
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 
-```{r "QA", eval=FALSE, echo=FALSE}
+```{r "check-style", eval=FALSE, echo=FALSE}
+# for submission, this mus produce NO entries in the Markers tab
 lintr::lint("assignment.Rmd")
+```
+
+```{r "check-compile", eval=FALSE, echo=FALSE}
+# for submission, this must run through to 100% without error
 rmarkdown::render("assignment.Rmd")
 ```
 
