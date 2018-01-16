@@ -1,5 +1,7 @@
-bacon: testing.Rmd 
+all: lint render
+
+render: assignment.Rmd 
 	Rscript -e 'rmarkdown::render("$<")'
 
-clean:
-	rm -rf testing.html
+lint: assignment.Rmd
+	Rscript -e 'lintr::lint("$<")'
