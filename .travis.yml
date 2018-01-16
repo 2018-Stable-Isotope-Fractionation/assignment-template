@@ -10,4 +10,3 @@ r_packages:
   - tidyverse
 os:
   - linux
-  - osx
