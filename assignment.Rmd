@@ -1,5 +1,5 @@
 ---
-title: "Linting test"
+title: "Clean assignment"
 output: html_document
 ---
 
@@ -12,18 +12,5 @@ knitr::opts_chunk$set(echo = TRUE)
 This should throw a linting test error:
 
 ```{r cars}
-test = cars
+test <- cars
 ```
-
-## Checks
-
-```{r "check-style", eval=FALSE, echo=FALSE}
-# for submission, this must produce NO entries in the Markers tab
-lintr::lint("assignment.Rmd") # run this or use "option/alt+shift+L" to lint file 
-```
-
-```{r "check-compile", eval=FALSE, echo=FALSE}
-# for submission, this must run through to 100% without error
-rmarkdown::render("assignment.Rmd")
-```
-

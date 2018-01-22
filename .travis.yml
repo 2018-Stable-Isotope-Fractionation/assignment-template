@@ -1,7 +1,7 @@
 language: r
 warnings_are_errors: false
 sudo: false
-script: ./check.sh
+script: ./check_rmds.sh
 cache: packages
 r:
   - 3.4.2
