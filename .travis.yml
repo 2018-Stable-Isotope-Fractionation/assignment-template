@@ -9,5 +9,6 @@ r_packages:
   - rmarkdown
   - lintr
   - tidyverse
+  - testthat
 os:
   - linux
