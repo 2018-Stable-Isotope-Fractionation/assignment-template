@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author: Sebastian Kopf
+# Last update: Jan 25 2018
 
 printf "────────────────────────────────────────────────────────────────────\n"
 echo "INFO: starting the linting and rendering check for all .Rmd files"
