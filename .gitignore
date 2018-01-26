@@ -38,3 +38,6 @@ vignettes/*.pdf
 *.html
 *.pdf
 *.docx
+
+# solutions
+*solutions.Rmd
