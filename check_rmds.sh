@@ -41,7 +41,8 @@ do
     printf "passed all"
     lintcount=$((lintcount+1))
   else
-    printf "encountered warnings:\n$lint"
+    printf "encountered warnings:\n"
+    echo "$lint" # echo to avoid problems with special chars in printf
   fi
   printf "\n"
   
