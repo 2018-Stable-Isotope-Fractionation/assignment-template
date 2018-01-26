@@ -10,5 +10,6 @@ r_packages:
   - lintr
   - tidyverse
   - testthat
+  - glue
 os:
   - linux

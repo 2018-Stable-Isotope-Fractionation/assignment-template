@@ -1,5 +1,5 @@
 ---
-title: "Assignment with linting warnings"
+title: "Assignment Template"
 date: "`r format(Sys.Date(), '%d %b %Y')`"
 output:
   html_document: 
@@ -17,10 +17,10 @@ library(tidyverse)
 
 # Question 1
 
-> This RMD file should create linting warnings but render correctly.
+> This RMD file should create no linting or rendering errors.
 
-```{r "cars"}
-(my_mpg=mpg) # this line is also way too long with the comment exceeding the recommended 80 characters
+```{r "mpg"}
+(my_mpg <- mpg)
 ```
 
 
